@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<<>>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one:hover{
+            background-color:greenyellow;
+            color: brown;
+            cursor: pointer;
+        }
+        #two{
+            background-color: aquamarine;
+        
+        }
+        textarea{
+            color:orange;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>this is specific way </h1>
+    <div>
+        <form>
+            <label id="one">
+                 select state
+            </label>
+               <select>
+                <option>.....select....</option>
+                <option>andhra pradesh</option>
+                <option>tamilnadu</option>
+                <option>telangana</option>
+                <option>karnataka</option>
+
+               </select>
+        </form>
+    </div>
+    </center>
+        <div>
+            <center>
+            <label id="two">feed back</label>
+               <textarea cols="20"rows="4"> write</textarea>
+            </center>
+        </div>
+        <center>
+            <h1><a href="{% url 'yuv:app2_first'%}">andhra aythe click mawa</a></h1>
+
+        </center>
+</body>
+</html>
